@@ -1,0 +1,20 @@
+name = "VET_Maptweaks"
+modname = "vet_maptweaks"
+prefix = "vet_maptweaks"
+author = "veteran29"
+files = ["mod.cpp"]
+
+keyname = "{{prefix}}_{{version}}"
+signame = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+reuse_private_key = false
+
+releasebuild = [
+    "!Set_version",
+]
+
+[scripts]
+    [scripts.Set_version]
+        steps_windows = [
+            "powershell ./tools/Set-Version.ps1 {{version}}"
+        ]
+        show_output = true

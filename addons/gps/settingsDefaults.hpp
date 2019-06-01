@@ -1,0 +1,3 @@
+
+#define GPS_ZOOM_DEFAULT        200
+#define GPS_SPEED_COEF_DEFAULT  30
