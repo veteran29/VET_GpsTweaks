@@ -9,7 +9,7 @@ This small addon allows to customize basic map and gps settings to your liking.
 
 ### Special thanks:
 
-taro8 for his (GPS Panel Tweaks)[https://forums.bohemia.net/forums/topic/223520-gps-panel-tweaks/] and (More Readable Map)[https://forums.bohemia.net/forums/topic/202678-more-readable-map-v2/] addons which insipred me to work on this.
+taro8 for his [GPS Panel Tweaks](https://forums.bohemia.net/forums/topic/223520-gps-panel-tweaks/) and [More Readable Map](https://forums.bohemia.net/forums/topic/202678-more-readable-map-v2/) addons which insipred me to work on this.
 
 ### Building
 
