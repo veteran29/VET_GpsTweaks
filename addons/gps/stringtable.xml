@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="vet_maptweaks_gps">
+    <!-- Categories -->
+    <Key ID="STR_vet_maptweaks_gps_setting_cat">
+        <Original>VET_Maptweaks - GPS</Original>
+    </Key>
+    <Key ID="STR_vet_maptweaks_gps_setting_subcat_zoom">
+        <Original>Zoom</Original>
+    </Key>
+    <Key ID="STR_vet_maptweaks_gps_setting_subcat_roads">
+        <Original>Roads</Original>
+    </Key>
+    <!-- Zoom -->
+    <Key ID="STR_vet_maptweaks_gps_setting_zoom">
+        <Original>Default GPS zoom (sqr. m)</Original>
+    </Key>
+    <Key ID="STR_vet_maptweaks_gps_setting_zoom_desc">
+        <Original>How big area in square meters will be shown in GPS by default</Original>
+    </Key>
+    <!-- Zoom Coef -->
+    <Key ID="STR_vet_maptweaks_gps_setting_speedCoef">
+        <Original>Speed unzoom coefficient</Original>
+    </Key>
+    <Key ID="STR_vet_maptweaks_gps_setting_speedCoef_desc">
+        <Original>Defines how much and how fast GPS unzooms depending on your speed</Original>
+    </Key>
+    <!-- Road colors -->
+    <Key ID="STR_vet_maptweaks_gps_setting_colorRoads">
+        <Original>Roads color</Original>
+    </Key>
+    <Key ID="STR_vet_maptweaks_gps_setting_colorRoads_desc">
+        <Original>Change the color of main roads, roads and tracks</Original>
+    </Key>
+</Project>
