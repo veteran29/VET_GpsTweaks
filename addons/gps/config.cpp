@@ -1,12 +1,12 @@
 #include "script_component.hpp"
     class CfgPatches {
         class ADDON {
-            name = 'COMPONENT';
+            name = QUOTE(COMPONENT);
             units[] = {};
             weapons[] = {};
             requiredVersion = REQUIRED_VERSION;
             requiredAddons[] = {
-                "cba_main"
+                QGVARMAIN(main)
             };
             author = "veteran29";
             VERSION_CONFIG;

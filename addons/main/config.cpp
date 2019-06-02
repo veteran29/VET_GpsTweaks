@@ -5,7 +5,9 @@
             units[] = {};
             weapons[] = {};
             requiredVersion = REQUIRED_VERSION;
-            requiredAddons[] = {};
+            requiredAddons[] = {
+                "cba_main"
+            };
             author = "veteran29";
             VERSION_CONFIG;
         };
