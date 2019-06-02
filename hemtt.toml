@@ -5,7 +5,7 @@ author = "veteran29"
 files = ["mod.cpp"]
 
 keyname = "{{prefix}}_{{version}}"
-signame = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+signame = "{{prefix}}_{{version}}"
 reuse_private_key = false
 
 releasebuild = [
