@@ -29,7 +29,7 @@
     true
 ] call CBA_fnc_addSetting;
 
-// Raod colors
+// Road colors
 [
     QGVAR(colorRoads),
     "COLOR",
@@ -41,6 +41,23 @@
         profileNamespace setVariable [QGVAR(colorRoads_R), _this#0];
         profileNamespace setVariable [QGVAR(colorRoads_G), _this#1];
         profileNamespace setVariable [QGVAR(colorRoads_B), _this#2];
+        saveProfileNamespace;
+    },
+    true
+] call CBA_fnc_addSetting;
+
+// Forests color
+[
+    QGVAR(colorForests),
+    "COLOR",
+    [LSTRING(setting_colorForests), LSTRING(setting_colorForests_desc)],
+    [LSTRING(setting_cat), LSTRING(setting_subcat_forests)],
+    [GPS_FOREST_R_DEFAULT, GPS_FOREST_G_DEFAULT, GPS_FOREST_B_DEFAULT],
+    2,
+    {
+        profileNamespace setVariable [QGVAR(colorForests_R), _this#0];
+        profileNamespace setVariable [QGVAR(colorForests_G), _this#1];
+        profileNamespace setVariable [QGVAR(colorForests_B), _this#2];
         saveProfileNamespace;
     },
     true

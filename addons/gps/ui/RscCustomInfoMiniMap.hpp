@@ -30,6 +30,7 @@ class RscCustomInfoMiniMap {
                         GPS_SETTING_VAL(colorRoads_B),
                         GPS_SETTING_VAL(roadsFill_A)
                     };
+
                     // Tracks colors (smaller dirt roads etc.)
                     colorTracks[] = {
                         GPS_SETTING_VAL(colorRoads_R),
@@ -43,6 +44,7 @@ class RscCustomInfoMiniMap {
                         GPS_SETTING_VAL(colorRoads_B),
                         GPS_SETTING_VAL(tracksFill_A)
                     };
+
                     // Main roads colors
                     colorMainRoads[] = {
                         GPS_SETTING_VAL(colorRoads_R),
@@ -55,6 +57,20 @@ class RscCustomInfoMiniMap {
                         GPS_SETTING_VAL(colorRoads_G),
                         GPS_SETTING_VAL(colorRoads_B),
                         GPS_SETTING_VAL(mainRoadsFill_A)
+                    };
+
+                    // Forests colors
+                    colorForest[] = {
+                        GPS_SETTING_VAL(colorForests_R),
+                        GPS_SETTING_VAL(colorForests_G),
+                        GPS_SETTING_VAL(colorForests_B),
+                        GPS_SETTING_VAL(forests_A)
+                    };
+                    colorForestBorder[] = {
+                        GPS_SETTING_VAL(colorForests_R),
+                        GPS_SETTING_VAL(colorForests_G),
+                        GPS_SETTING_VAL(colorForests_B),
+                        GPS_SETTING_VAL(forestsBorder_A)
                     };
                 };
             };
