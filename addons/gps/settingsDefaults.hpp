@@ -13,4 +13,11 @@
 #define GPS_TRACKS_FILL_A_DEFAULT   0.3
 // Main roads alphas
 #define GPS_MAINROAD_A_DEFAULT      1
-#define GPS_MAINROAD_FILL_DEFAULT   0.7
+#define GPS_MAINROAD_FILL_A_DEFAULT 0.7
+// Forests colors
+#define GPS_FOREST_R_DEFAULT        (profilenamespace getvariable ['IGUI_BCG_RGB_R',0])
+#define GPS_FOREST_G_DEFAULT        (profilenamespace getvariable ['IGUI_BCG_RGB_G',1])
+#define GPS_FOREST_B_DEFAULT        (profilenamespace getvariable ['IGUI_BCG_RGB_B',1])
+// Forests alpha
+#define GPS_FOREST_A_DEFAULT        0.7
+#define GPS_FOREST_BORDER_A_DEFAULT 0.5

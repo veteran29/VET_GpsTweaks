@@ -10,6 +10,9 @@
     <Key ID="STR_vet_maptweaks_gps_setting_subcat_roads">
         <Original>Roads</Original>
     </Key>
+    <Key ID="STR_vet_maptweaks_gps_setting_subcat_forests">
+        <Original>Forests</Original>
+    </Key>
     <!-- Zoom -->
     <Key ID="STR_vet_maptweaks_gps_setting_zoom">
         <Original>Default GPS zoom (sqr. m)</Original>
@@ -30,5 +33,12 @@
     </Key>
     <Key ID="STR_vet_maptweaks_gps_setting_colorRoads_desc">
         <Original>Change the color of main roads, roads and tracks</Original>
+    </Key>
+    <!-- Forests -->
+    <Key ID="STR_vet_maptweaks_gps_setting_colorForests">
+        <Original>Forests color</Original>
+    </Key>
+    <Key ID="STR_vet_maptweaks_gps_setting_colorForests_desc">
+        <Original>Change color of forests</Original>
     </Key>
 </Project>
