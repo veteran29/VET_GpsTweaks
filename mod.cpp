@@ -4,4 +4,4 @@ author = "veteran29";
 url = "https://github.com/veteran29/vet_maptweaks";
 action = "https://github.com/veteran29";
 actionName = "GitHub";
-logo = "z\vet_maptweaks\addons\main\data\logo_ca.paa";
+logo = "z\vet_maptweaks\addons\main\data\logo_co.paa";

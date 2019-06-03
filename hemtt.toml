@@ -3,6 +3,7 @@ modname = "vet_maptweaks"
 prefix = "vet_maptweaks"
 author = "veteran29"
 files = ["mod.cpp"]
+exclude = ["*.xcf", "*.png"]
 
 keyname = "{{prefix}}_{{version}}"
 signame = "{{prefix}}_{{version}}"
