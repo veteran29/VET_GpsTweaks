@@ -26,4 +26,11 @@ class GVAR(GpsSettings) {
     // Forests alpha
     GPS_SETTING(forests_A, GPS_FOREST_A_DEFAULT);
     GPS_SETTING(forestsBorder_A, GPS_FOREST_BORDER_A_DEFAULT);
+    // Grid color
+    GPS_SETTING(colorGrid_R, GPS_GRID_R_DEFAULT);
+    GPS_SETTING(colorGrid_G, GPS_GRID_G_DEFAULT);
+    GPS_SETTING(colorGrid_B, GPS_GRID_B_DEFAULT);
+    // Grid alphas
+    GPS_SETTING(grid_A, GPS_GRID_A_DEFAULT);
+    GPS_SETTING(gridMap_A, GPS_GRID_MAP_A_DEFAULT);
 };
