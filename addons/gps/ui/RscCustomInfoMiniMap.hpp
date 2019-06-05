@@ -72,6 +72,20 @@ class RscCustomInfoMiniMap {
                         GPS_SETTING_VAL(colorForests_B),
                         GPS_SETTING_VAL(forestsBorder_A)
                     };
+
+                    // Rocks colors
+                    colorRocks[] = {
+                        GPS_SETTING_VAL(colorRocks_R),
+                        GPS_SETTING_VAL(colorRocks_G),
+                        GPS_SETTING_VAL(colorRocks_B),
+                        GPS_SETTING_VAL(rocks_A)
+                    };
+                    colorRocksBorder[] = {
+                        GPS_SETTING_VAL(colorRocks_R),
+                        GPS_SETTING_VAL(colorRocks_G),
+                        GPS_SETTING_VAL(colorRocks_B),
+                        GPS_SETTING_VAL(rocksBorder_A)
+                    };
                 };
             };
         };

@@ -26,4 +26,11 @@ class GVAR(GpsSettings) {
     // Forests alpha
     GPS_SETTING(forests_A, GPS_FOREST_A_DEFAULT);
     GPS_SETTING(forestsBorder_A, GPS_FOREST_BORDER_A_DEFAULT);
+    // Rocks colors
+    GPS_SETTING(colorRocks_R, GPS_ROCKS_R_DEFAULT);
+    GPS_SETTING(colorRocks_G, GPS_ROCKS_G_DEFAULT);
+    GPS_SETTING(colorRocks_B, GPS_ROCKS_B_DEFAULT);
+    // Rocks alpha
+    GPS_SETTING(rocks_A, GPS_ROCKS_A_DEFAULT);
+    GPS_SETTING(rocksBorder_A, GPS_ROCKS_BORDER_A_DEFAULT);
 };
