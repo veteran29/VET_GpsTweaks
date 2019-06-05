@@ -80,7 +80,7 @@ class RscCustomInfoMiniMap {
                         GPS_SETTING_VAL(colorGrid_B),
                         GPS_SETTING_VAL(grid_A)
                     };
-					colorGridMap[] = {
+                    colorGridMap[] = {
                         GPS_SETTING_VAL(colorGrid_R),
                         GPS_SETTING_VAL(colorGrid_G),
                         GPS_SETTING_VAL(colorGrid_B),
