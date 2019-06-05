@@ -13,6 +13,9 @@
     <Key ID="STR_vet_maptweaks_gps_setting_subcat_forests">
         <Original>Forests</Original>
     </Key>
+    <Key ID="STR_vet_maptweaks_gps_setting_subcat_other">
+        <Original>Other</Original>
+    </Key>
     <!-- Zoom -->
     <Key ID="STR_vet_maptweaks_gps_setting_zoom">
         <Original>Default GPS zoom (sqr. m)</Original>
@@ -40,5 +43,9 @@
     </Key>
     <Key ID="STR_vet_maptweaks_gps_setting_colorForests_desc">
         <Original>Change color of forests</Original>
+    </Key>
+    <!-- Grid -->
+    <Key ID="STR_vet_maptweaks_gps_setting_colorGrid">
+        <Original>Grid color</Original>
     </Key>
 </Project>

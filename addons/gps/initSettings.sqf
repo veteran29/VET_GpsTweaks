@@ -62,3 +62,20 @@
     },
     true
 ] call CBA_fnc_addSetting;
+
+// Grid color
+[
+    QGVAR(colorGrid),
+    "COLOR",
+    [LSTRING(setting_colorGrid), LSTRING(setting_colorGrid)],
+    [LSTRING(setting_cat), LSTRING(setting_subcat_other)],
+    [GPS_GRID_R_DEFAULT, GPS_GRID_G_DEFAULT, GPS_GRID_B_DEFAULT],
+    2,
+    {
+        profileNamespace setVariable [QGVAR(colorGrid_R), _this#0];
+        profileNamespace setVariable [QGVAR(colorGrid_G), _this#1];
+        profileNamespace setVariable [QGVAR(colorGrid_B), _this#2];
+        saveProfileNamespace;
+    },
+    true
+] call CBA_fnc_addSetting;
