@@ -62,3 +62,20 @@
     },
     true
 ] call CBA_fnc_addSetting;
+
+// Rocks colors
+[
+    QGVAR(colorRocks),
+    "COLOR",
+    [LSTRING(setting_colorRocks), LSTRING(setting_colorRocks)],
+    [LSTRING(setting_cat), LSTRING(setting_subcat_rocks)],
+    [GPS_ROCKS_R_DEFAULT, GPS_ROCKS_G_DEFAULT, GPS_ROCKS_B_DEFAULT],
+    2,
+    {
+        profileNamespace setVariable [QGVAR(colorRocks_R), _this#0];
+        profileNamespace setVariable [QGVAR(colorRocks_G), _this#1];
+        profileNamespace setVariable [QGVAR(colorRocks_B), _this#2];
+        saveProfileNamespace;
+    },
+    true
+] call CBA_fnc_addSetting;
