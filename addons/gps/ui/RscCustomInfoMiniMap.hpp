@@ -72,6 +72,21 @@ class RscCustomInfoMiniMap {
                         GPS_SETTING_VAL(colorForests_B),
                         GPS_SETTING_VAL(forestsBorder_A)
                     };
+
+                    // Grid ctrlSetTooltipColorShade
+                    colorGrid[] = {
+                        GPS_SETTING_VAL(colorGrid_R),
+                        GPS_SETTING_VAL(colorGrid_G),
+                        GPS_SETTING_VAL(colorGrid_B),
+                        GPS_SETTING_VAL(grid_A)
+                    };
+                    colorGridMap[] = {
+                        GPS_SETTING_VAL(colorGrid_R),
+                        GPS_SETTING_VAL(colorGrid_G),
+                        GPS_SETTING_VAL(colorGrid_B),
+                        GPS_SETTING_VAL(gridMap_A)
+                    };
+
                 };
             };
         };
