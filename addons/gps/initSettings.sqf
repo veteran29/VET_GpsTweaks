@@ -79,3 +79,31 @@
     },
     true
 ] call CBA_fnc_addSetting;
+
+[
+    QGVAR(grid_A),
+    "SLIDER",
+    [LSTRING(setting_gridA), LSTRING(setting_gridA)],
+    [LSTRING(setting_cat), LSTRING(setting_subcat_other)],
+    [0, 1, GPS_GRID_A_DEFAULT],
+    2,
+    {
+        profileNamespace setVariable [QGVAR(grid_A), _this];
+        saveProfileNamespace;
+    },
+    true
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(gridMap_A),
+    "SLIDER",
+    [LSTRING(setting_gridMapA), LSTRING(setting_gridMapA)],
+    [LSTRING(setting_cat), LSTRING(setting_subcat_other)],
+    [0, 1, GPS_GRID_MAP_A_DEFAULT],
+    2,
+    {
+        profileNamespace setVariable [QGVAR(gridMap_A), _this];
+        saveProfileNamespace;
+    },
+    true
+] call CBA_fnc_addSetting;
