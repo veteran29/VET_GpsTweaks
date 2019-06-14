@@ -48,4 +48,10 @@
     <Key ID="STR_vet_maptweaks_gps_setting_colorGrid">
         <Original>Grid color</Original>
     </Key>
+    <Key ID="STR_vet_maptweaks_gps_setting_gridA">
+        <Original>Grid numbers opacity</Original>
+    </Key>
+    <Key ID="STR_vet_maptweaks_gps_setting_gridMapA">
+        <Original>Grid lines opacity</Original>
+    </Key>
 </Project>
